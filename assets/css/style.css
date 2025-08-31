@@ -515,6 +515,27 @@ input[type=reset] {
   margin: 0 auto;
 }
 
+.calendar-wrapper {
+  box-shadow: 0 0 20px var(--color-text);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: var(--color-background-primary);
+  color: var(--color-text-secondary);
+  border-radius: 5px;
+  width: 49%;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  box-shadow: 0 0 20px var(--color-text);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: var(--color-background-primary);
+  color: var(--color-text-secondary);
+  border-radius: 5px;
+  width: 49%;
+  margin: 0 auto;
+}
 /* column for labels: 25% width */
 .col-25 {
   float: left;
@@ -568,7 +589,7 @@ input[type=submit]:hover {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 90%;
+  font-size: 100%;
   color: black;
 }
 

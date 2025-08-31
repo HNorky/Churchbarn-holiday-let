@@ -19,7 +19,7 @@
     <!-- title on the browser-->
     <title>Luxury holiday cottage in Angus, Scotland</title>
 
-    <!--Improve page load speed (lighthouse report)  with preconnect and dns-prefetch -->
+    <!--Improve page load speed (lighthouse report)  with preconnect and dns-prefectch -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -29,42 +29,36 @@
 </head>
 
 <body>
-
     <!-- Header with clickable link back to home page -->
     <header class="main-head">
         <div class="background-header">
             <a href="index.html" aria-label="Home page">
                 <h1>Pitreuchie Cottage - holiday let</h1>
             </a>
-            <h2 class="sub-header">Angus, Scotland</h2>
+            <h2 class="sub-header">Central Angus, Scotland</h2>
         </div>
     </header>
     <!-- Nav bar -->
     <nav class="navbar">
         <ul>
-            <li><a class="selected" href="index.html" aria-label="Home page">Home</a></li>
-            <li><a href="thecottage.html" aria-label="the cottage page">The Cottage</a></li>
+            <li><a href="index.html" aria-label="Home page">Home</a></li>
+            <li><a href="thecottage.html" aria-label="The cottage page">The Cottage</a></li>
             <li><a href="thearea.html" aria-label="The area page">The Area</a></li>
-            <li><a href="thecalendar.html" aria-label="Calendar page">Calendar</a></li>
+            <li><a class="selected" href="thecalendar.html" aria-label="Calendar page">Calendar</a></li>
             <li><a href="contactus.html" aria-label="Contact page">Contact</a></li>
         </ul>
     </nav>
 
 
-    <!--Main section with text, call to action button and hero image -->
+    <!--main section - Calendar showing booked dates for Pitreuchie Cottage -->
     <main>
-        <div class="background-section">
-            <h2 class="titles">A fabulous rural break</h2>
-            <h3 class="titles"> Ready to book your stay?</h3>
-            <span class="cta-button-wrapper">
-                <a class="cta-button" href="contactus.html">Book Now</a>
-            </span>
-        </div>
-        <div class="hero">
+        <h1 class="background-section">Cottage calendar</h1>
+        <h4 class="contactus-text">Check here first to see whether your desired dates are available.</h4>
+        <div class="calendar-wrapper"><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FLondon&showPrint=0&hl=en_GB&showCalendars=0&title=Pitreuchie%20Cottage%20letting%20dates&src=MDEyNWRlNzFhZjMwNjVlNmRjODJkNDNjMDYwMzI4ZDg5MWEzYzc1MTFlYjg5Zjg3YzI4OWRkMDAxOTA3YzFjNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d81b60" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
     </main>
 
-    <!--footer-->
+    <!--footer -->
     <footer class="ft-container">
         <div class="ft-main">
             <div class="ft-content">
@@ -76,16 +70,15 @@
                     <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
                             aria-label="Find us on Instagram"><i class="fab fa-instagram-square"></i></a></li>
                     <li>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                        <a href="https://www.x.com" target="_blank" rel="noopener"
                             aria-label="Find us on Twitter"><i class="fab fa-x-twitter"></i></a>
                     </li>
                 </ul>
             </div>
             <div class="ft-content">
                 <!-- display Address on the center of the footer-->
-
-                <p>Pitreuchie Cottage, Angus</p>
-                <p>Scotland, DD8 2RW</p>
+                <p>Pitreuchie Cottage</p>
+                <p>Angus, DD8 2RW</p>
             </div>
             <div class="ft-content">
                 <!-- display contact details with icon on the rigth hand side of the footer-->
