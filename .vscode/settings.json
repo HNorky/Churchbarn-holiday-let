@@ -21,6 +21,6 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "VS Code Dark",
+   "workbench.colorTheme": "Dark 2026",
    "editor.defaultFormatter": "HookyQR.beautify"
 }
